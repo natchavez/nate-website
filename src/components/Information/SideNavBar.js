@@ -3,26 +3,19 @@ import { Link } from 'react-router-dom';
 import AboutPage from '../../pages/AboutPage/AboutPage';
 import styles from './SideNavBar.module.css';
 
-// PAGENAMES is created to render unique keys for each page
-// keys for rendering page using InfoSection.
-const PAGENAMES = [
-  { id: '001', pageName: 'About' },
-  { id: '002', pageName: 'My Skills' },
-  { id: '003', pageName: 'Projects' },
-];
 const SideNavBar = () => {
   return (
     <div>
       <div className={styles.centered}>
         <div className={styles.content}>
           <ul>
-            <Link to='/about'>
+            <Link to='/about' className={styles['link-style']}>
               <li className={styles.border}>About</li>
             </Link>
-            <Link to='/my-skills'>
+            <Link to='/my-skills' className={styles['link-style']}>
               <li>My Skills</li>
             </Link>
-            <Link to='/projects'>
+            <Link to='/projects' className={styles['link-style']}>
               <li className={styles.border}>Projects</li>
             </Link>
           </ul>

@@ -3,9 +3,12 @@ import styles from './IntroductionPage.module.css';
 const IntroductionPage = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.title}>
-        Hi, I'm Nate, <br />I code.
-      </p>
+      <div className={styles.content}>
+        <p className={styles.title}>
+          Hi.
+          <br /> I'm Nate, <br /> I code.
+        </p>
+      </div>
     </div>
   );
 };

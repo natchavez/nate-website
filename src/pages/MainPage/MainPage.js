@@ -8,8 +8,8 @@ const MainPage = () => {
     <div>
       <MainSection />
       <InfoSection />
-      {/* <ContactSection />
-      <TestimonialsSection /> */}
+      <ContactSection />
+      <TestimonialsSection />
     </div>
   );
 };

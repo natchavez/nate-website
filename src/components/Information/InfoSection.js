@@ -18,7 +18,7 @@ const InfoSection = () => {
         <SideNavBar />
         <div className={styles.information}>
           <Routes>
-            <Route exact path='/introduction' element={<IntroductionPage />} />
+            <Route exact path='/' element={<IntroductionPage />} />
             <Route exact path='/about' element={<AboutPage />} />
             <Route exact path='/my-skills' element={<MySkillsPage />} />
             <Route exact path='/projects' element={<ProjectsPage />} />

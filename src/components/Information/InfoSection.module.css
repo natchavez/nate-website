@@ -13,10 +13,10 @@
 }
 
 .information {
-  width: 89%;
   background-color: #101010;
-  float: right;
+  display: inline-block;
   min-height: 100vh;
-  padding-left: 5%;
   height: 100vh;
+  width: 89%;
+  float: right;
 }

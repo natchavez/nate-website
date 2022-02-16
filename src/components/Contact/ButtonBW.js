@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './ButtonBW.module.css';
-const ButtonBW = () => {
+const ButtonBW = (props) => {
   return (
     <a href='' className={styles.button}>
-      Contact
+      {props.title}
     </a>
   );
 };
