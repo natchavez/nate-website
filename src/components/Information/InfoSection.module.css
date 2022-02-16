@@ -2,10 +2,21 @@
   color: #fff;
 }
 
-.header {
+.container {
   min-height: 100vh;
   background-size: cover;
   position: relative;
+  height: 100vh;
   width: 100%;
+  margin: auto;
   background-color: #101010;
+}
+
+.information {
+  width: 89%;
+  background-color: #101010;
+  float: right;
+  min-height: 100vh;
+  padding-left: 5%;
+  height: 100vh;
 }

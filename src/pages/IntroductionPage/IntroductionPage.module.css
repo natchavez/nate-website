@@ -1,0 +1,9 @@
+.container {
+  height: 100%;
+  align-content: center;
+  background-color: red;
+}
+
+.title {
+  font-size: 30px;
+}
