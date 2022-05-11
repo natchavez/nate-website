@@ -10,6 +10,7 @@ const TestimonialsSection = () => {
         </p>
       </div>
       <div className={styles['bottom-content']}></div>
+      {/* comment */}
     </div>
   );
 };
