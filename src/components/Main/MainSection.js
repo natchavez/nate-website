@@ -10,12 +10,11 @@ const MainSection = () => {
       <Margin>
         <div className={styles['center-content']}>
           <h1 className={styles['prime']}>
-            A student, and an aspiring <br />
-            Web Developer.
+            A Full Stack <br />
+            Software Engineer.
           </h1>
           <p className={styles['sec']}>
-            I love learning new things that involves <br /> programming and
-            building.
+            I focus on Java backend and React.js Frontend
           </p>
           <PersonalImage />
         </div>
